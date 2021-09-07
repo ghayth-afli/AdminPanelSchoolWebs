@@ -1,0 +1,332 @@
+<template>
+  <div class="page-wrapper">
+    <div class="chat-main-row">
+      <div class="chat-main-wrapper">
+        <div class="col-xs-12 message-view">
+          <div class="chat-window">
+            <div class="fixed-header">
+              <div class="row">
+                <div class="col-xs-6">
+                  <h4 class="page-title m-b-0 m-t-5">Les eleves</h4>
+                </div>
+                <div class="col-xs-6">
+                  <div class="navbar">
+                    <div class="search-box m-t-0">
+                      <div class="input-group input-group-sm">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="rechercher"
+                          required=""
+                        />
+                        <span class="input-group-btn">
+                          <button class="btn" type="button">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chat-contents">
+              <div class="chat-content-wrap">
+                <div class="chat-wrap-inner">
+                  <div class="contact-box clearfix">
+                    <div class="contact-cat col-xs-12 col-sm-4 col-lg-3">
+                      <router-link to="/eleves/ajout" class="btn btn-primary btn-block">
+                        <i class="fa fa-plus"></i> Ajouter un eleve</router-link>
+                    </div>
+                    <div class="contacts-list col-xs-12 col-sm-8 col-lg-9">
+                      <ul class="contact-list">
+                        <li>
+                          <div class="contact-cont">
+                            <div class="pull-left user-img m-r-10">
+                              <a href="profile.html" title="Richard Miles"
+                                ><img
+                                  src="assets/img/user.jpg"
+                                  alt=""
+                                  class="w-40 img-circle" /><span
+                                  class="status online"
+                                ></span
+                              ></a>
+                            </div>
+                            <div class="contact-info">
+                              <span class="contact-name text-ellipsis"
+                                >Richard Miles</span
+                              >
+                              <span class="contact-date">Web Developer</span>
+                            </div>
+                            <ul class="contact-action">
+                              <li class="dropdown">
+                                <a
+                                  href=""
+                                  class="dropdown-toggle action-icon"
+                                  data-toggle="dropdown"
+                                  aria-expanded="false"
+                                  ><i class="fa fa-ellipsis-v"></i
+                                ></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="javascript:void(0)">Edit</a></li>
+                                  <li>
+                                    <a href="javascript:void(0)">Delete</a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="notification-box">
+      <div class="msg-sidebar notifications msg-noti">
+        <div class="topnav-dropdown-header">
+          <span>Messages</span>
+        </div>
+        <div class="drop-scroll msg-list-scroll">
+          <ul class="list-box">
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">R</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Richard Miles </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item new-message">
+                  <div class="list-left">
+                    <span class="avatar">J</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">John Doe</span>
+                    <span class="message-time">1 Aug</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">T</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Tarah Shropshire </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">M</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Mike Litorus</span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">C</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Catherine Manseau </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">D</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Domenic Houston </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">B</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Buster Wigton </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">R</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Rolland Webber </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">C</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Claire Mapes </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">M</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Melita Faucher</span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">J</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Jeffery Lalor</span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">L</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Loren Gatlin</span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="chat.html">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">T</span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Tarah Shropshire</span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="topnav-dropdown-footer">
+          <a href="chat.html">See all messages</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Eleves",
+};
+</script>

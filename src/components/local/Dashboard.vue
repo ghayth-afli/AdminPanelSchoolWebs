@@ -1,0 +1,704 @@
+<template>
+    <div class="page-wrapper">
+            <div class="content container-fluid">
+                <div class="row">
+                    
+                    <div class="col-md-6 col-sm-6 col-lg-3">
+                        <div class="dash-widget dash-widget5">
+                            <span class="dash-widget-icon bg-infoo"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info">
+                                <h3>30</h3>
+                                <span>Les profes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-3">
+                        <div class="dash-widget dash-widget5">
+                            <span class="dash-widget-icon bg-info"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info">
+                                <h3>1072</h3>
+                                <span>Les parents</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-3">
+                        <div class="dash-widget dash-widget5">
+                            <span class="dash-widget-icon bg-infooo"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info">
+                                <h3>1072</h3>
+                                <span>Les élèves</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                
+                
+                
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="panel task-panel">
+                            <div class="panel-heading">
+                                <div class="navbar">
+                                    <div class="pull-left">
+                                        <div class="add-task-btn-wrapper">
+                                            <span class="add-task-btn btn btn-default btn-xs">
+													Add Task
+												</span>
+                                        </div>
+                                    </div>
+                                    <ul class="nav navbar-nav pull-right custom-menu">
+                                        <li class="dropdown">
+                                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-cog"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="javascript:void(0)">Pending Tasks</a></li>
+                                                <li><a href="javascript:void(0)">Completed Tasks</a></li>
+                                                <li><a href="javascript:void(0)">All Tasks</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="task-wrapper">
+                                    <div class="task-list-container">
+                                        <div class="task-list-body">
+                                            <ul id="task-list">
+                                                <li class="task">
+                                                    <div class="task-container">
+                                                        <span class="task-action-btn task-check">
+																<span class="action-circle large complete-btn" title="Mark Complete">
+																	<i class="material-icons">check</i>
+																</span>
+                                                        </span>
+                                                        <span class="task-label" contenteditable="true">Patient appointment booking</span>
+                                                        <span class="task-action-btn task-btn-right">
+																<span class="action-circle large" title="Assign">
+																	<i class="material-icons">person_add</i>
+																</span>
+                                                        <span class="action-circle large delete-btn" title="Delete Task">
+																	<i class="material-icons">delete</i>
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="task">
+                                                    <div class="task-container">
+                                                        <span class="task-action-btn task-check">
+																<span class="action-circle large complete-btn" title="Mark Complete">
+																	<i class="material-icons">check</i>
+																</span>
+                                                        </span>
+                                                        <span class="task-label" contenteditable="true">Appointment booking with payment gateway</span>
+                                                        <span class="task-action-btn task-btn-right">
+																<span class="action-circle large" title="Assign">
+																	<i class="material-icons">person_add</i>
+																</span>
+                                                        <span class="action-circle large delete-btn" title="Delete Task">
+																	<i class="material-icons">delete</i>
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="completed task">
+                                                    <div class="task-container">
+                                                        <span class="task-action-btn task-check">
+																<span class="action-circle large complete-btn" title="Mark Complete">
+																	<i class="material-icons">check</i>
+																</span>
+                                                        </span>
+                                                        <span class="task-label">Doctor available module</span>
+                                                        <span class="task-action-btn task-btn-right">
+																<span class="action-circle large" title="Assign">
+																	<i class="material-icons">person_add</i>
+																</span>
+                                                        <span class="action-circle large delete-btn" title="Delete Task">
+																	<i class="material-icons">delete</i>
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="task">
+                                                    <div class="task-container">
+                                                        <span class="task-action-btn task-check">
+																<span class="action-circle large complete-btn" title="Mark Complete">
+																	<i class="material-icons">check</i>
+																</span>
+                                                        </span>
+                                                        <span class="task-label" contenteditable="true">Patient and Doctor video conferencing</span>
+                                                        <span class="task-action-btn task-btn-right">
+																<span class="action-circle large" title="Assign">
+																	<i class="material-icons">person_add</i>
+																</span>
+                                                        <span class="action-circle large delete-btn" title="Delete Task">
+																	<i class="material-icons">delete</i>
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="task">
+                                                    <div class="task-container">
+                                                        <span class="task-action-btn task-check">
+																<span class="action-circle large complete-btn" title="Mark Complete">
+																	<i class="material-icons">check</i>
+																</span>
+                                                        </span>
+                                                        <span class="task-label" contenteditable="true">Private chat module</span>
+                                                        <span class="task-action-btn task-btn-right">
+																<span class="action-circle large" title="Assign">
+																	<i class="material-icons">person_add</i>
+																</span>
+                                                        <span class="action-circle large delete-btn" title="Delete Task">
+																	<i class="material-icons">delete</i>
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="task">
+                                                    <div class="task-container">
+                                                        <span class="task-action-btn task-check">
+																<span class="action-circle large complete-btn" title="Mark Complete">
+																	<i class="material-icons">check</i>
+																</span>
+                                                        </span>
+                                                        <span class="task-label" contenteditable="true">Patient Profile add</span>
+                                                        <span class="task-action-btn task-btn-right">
+																<span class="action-circle large" title="Assign">
+																	<i class="material-icons">person_add</i>
+																</span>
+                                                        <span class="action-circle large delete-btn" title="Delete Task">
+																	<i class="material-icons">delete</i>
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="task-list-footer">
+                                            <div class="new-task-wrapper">
+                                                <textarea id="new-task" placeholder="Enter new task here. . ."></textarea>
+                                                <span class="error-message hidden">You need to enter a task first</span>
+                                                <span class="add-new-task-btn btn" id="add-task">Add Task</span>
+                                                <span class="cancel-btn btn" id="close-task-panel">Close</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="panel member-panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Contacts</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="contact-list">
+                                    <li>
+                                        <div class="contact-cont">
+                                            <div class="pull-left user-img m-r-10">
+                                                <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt="" class="w-40 img-circle"><span class="status online"></span></a>
+                                            </div>
+                                            <div class="contact-info">
+                                                <span class="contact-name text-ellipsis">John Doe</span>
+                                                <span class="contact-date">Web Developer</span>
+                                            </div>
+                                            <ul class="contact-action">
+                                                <li class="dropdown">
+                                                    <a href="" class="dropdown-toggle action-icon" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="javascript:void(0)">Edit</a></li>
+                                                        <li><a href="javascript:void(0)">Delete</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-cont">
+                                            <div class="pull-left user-img m-r-10">
+                                                <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt="" class="w-40 img-circle"><span class="status offline"></span></a>
+                                            </div>
+                                            <div class="contact-info">
+                                                <span class="contact-name text-ellipsis">Richard Miles</span>
+                                                <span class="contact-date">Web Developer</span>
+                                            </div>
+                                            <ul class="contact-action">
+                                                <li class="dropdown">
+                                                    <a href="" class="dropdown-toggle action-icon" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="javascript:void(0)">Edit</a></li>
+                                                        <li><a href="javascript:void(0)">Delete</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-cont">
+                                            <div class="pull-left user-img m-r-10">
+                                                <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt="" class="w-40 img-circle"><span class="status away"></span></a>
+                                            </div>
+                                            <div class="contact-info">
+                                                <span class="contact-name text-ellipsis">John Doe</span>
+                                                <span class="contact-date">Web Developer</span>
+                                            </div>
+                                            <ul class="contact-action">
+                                                <li class="dropdown">
+                                                    <a href="" class="dropdown-toggle action-icon" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="javascript:void(0)">Edit</a></li>
+                                                        <li><a href="javascript:void(0)">Delete</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-cont">
+                                            <div class="pull-left user-img m-r-10">
+                                                <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt="" class="w-40 img-circle"><span class="status online"></span></a>
+                                            </div>
+                                            <div class="contact-info">
+                                                <span class="contact-name text-ellipsis">Richard Miles</span>
+                                                <span class="contact-date">Web Developer</span>
+                                            </div>
+                                            <ul class="contact-action">
+                                                <li class="dropdown">
+                                                    <a href="" class="dropdown-toggle action-icon" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="javascript:void(0)">Edit</a></li>
+                                                        <li><a href="javascript:void(0)">Delete</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-cont">
+                                            <div class="pull-left user-img m-r-10">
+                                                <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt="" class="w-40 img-circle"><span class="status offline"></span></a>
+                                            </div>
+                                            <div class="contact-info">
+                                                <span class="contact-name text-ellipsis">John Doe</span>
+                                                <span class="contact-date">Web Developer</span>
+                                            </div>
+                                            <ul class="contact-action">
+                                                <li class="dropdown">
+                                                    <a href="" class="dropdown-toggle action-icon" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="javascript:void(0)">Edit</a></li>
+                                                        <li><a href="javascript:void(0)">Delete</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-cont">
+                                            <div class="pull-left user-img m-r-10">
+                                                <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt="" class="w-40 img-circle"><span class="status away"></span></a>
+                                            </div>
+                                            <div class="contact-info">
+                                                <span class="contact-name text-ellipsis">Richard Miles</span>
+                                                <span class="contact-date">Web Developer</span>
+                                            </div>
+                                            <ul class="contact-action">
+                                                <li class="dropdown">
+                                                    <a href="" class="dropdown-toggle action-icon" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="javascript:void(0)">Edit</a></li>
+                                                        <li><a href="javascript:void(0)">Delete</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="panel-footer text-center bg-white">
+                                <a href="users.html" class="text-primary">View all members</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="panel panel-table">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Clients</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped custom-table m-b-0">
+                                        <thead>
+                                            <tr>
+                                                <th style="min-width:200px;">Name</th>
+                                                <th>Email</th>
+                                                <th>Status</th>
+                                                <th class="text-right">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="min-width:200px;">
+                                                    <a href="#" class="avatar">B</a>
+                                                    <h2><a href="client-profile.html">Barry Cuda <span>CEO</span></a></h2>
+                                                </td>
+                                                <td>barrycuda@example.com</td>
+                                                <td>
+                                                    <div class="dropdown action-label">
+                                                        <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i>
+															</a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="text-right">
+                                                    <div class="dropdown">
+                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                            <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a class="avatar">T</a>
+                                                    <h2><a href="client-profile.html">Tressa Wexler <span>Manager</span></a></h2>
+                                                </td>
+                                                <td>tressawexler@example.com</td>
+                                                <td>
+                                                    <div class="dropdown action-label">
+                                                        <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-danger"></i> Inactive <i class="caret"></i>
+															</a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="text-right">
+                                                    <div class="dropdown">
+                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                            <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="client-profile.html" class="avatar">R</a>
+                                                    <h2><a href="client-profile.html">Ruby Bartlett <span>CEO</span></a></h2>
+                                                </td>
+                                                <td>rubybartlett@example.com</td>
+                                                <td>
+                                                    <div class="dropdown action-label">
+                                                        <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-danger"></i> Inactive <i class="caret"></i>
+															</a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="text-right">
+                                                    <div class="dropdown">
+                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                            <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="client-profile.html" class="avatar">M</a>
+                                                    <h2><a href="client-profile.html"> Misty Tison <span>CEO</span></a></h2>
+                                                </td>
+                                                <td>mistytison@example.com</td>
+                                                <td>
+                                                    <div class="dropdown action-label">
+                                                        <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i>
+															</a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="text-right">
+                                                    <div class="dropdown">
+                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                            <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="client-profile.html" class="avatar">D</a>
+                                                    <h2><a href="client-profile.html"> Daniel Deacon <span>CEO</span></a></h2>
+                                                </td>
+                                                <td>danieldeacon@example.com</td>
+                                                <td>
+                                                    <div class="dropdown action-label">
+                                                        <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-danger"></i> Inactive <i class="caret"></i>
+															</a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                            <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="text-right">
+                                                    <div class="dropdown">
+                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                        <ul class="dropdown-menu pull-right">
+                                                            <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                            <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <a href="clients.html" class="text-primary">View all clients</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="notification-box">
+                <div class="msg-sidebar notifications msg-noti">
+                    <div class="topnav-dropdown-header">
+                        <span>Messages</span>
+                    </div>
+                    <div class="drop-scroll msg-list-scroll">
+                        <ul class="list-box">
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">R</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Richard Miles </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item new-message">
+                                        <div class="list-left">
+                                            <span class="avatar">J</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">John Doe</span>
+                                            <span class="message-time">1 Aug</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">T</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Tarah Shropshire </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">M</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Mike Litorus</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">C</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Catherine Manseau </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">D</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Domenic Houston </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">B</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Buster Wigton </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">R</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Rolland Webber </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">C</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Claire Mapes </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">M</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Melita Faucher</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">J</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Jeffery Lalor</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">L</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Loren Gatlin</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chat.html">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">T</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Tarah Shropshire</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="topnav-dropdown-footer">
+                        <a href="chat.html">See all messages</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</template>
+
+<script>
+export default {
+  name: "Dashboard",
+
+};
+</script>
