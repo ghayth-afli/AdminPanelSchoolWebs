@@ -1,4 +1,5 @@
 <template>
+  <div class="page-wrapper">
     <div class="content container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
@@ -89,6 +90,7 @@
                     </div>
                 </form>
             </div>
+  </div>
 </template>
 
 <script>
