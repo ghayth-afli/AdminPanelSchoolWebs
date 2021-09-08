@@ -70,9 +70,7 @@
           </li>
 
           <li>
-            <a href="settings.html"
-              ><i class="fa fa-cog" aria-hidden="true"></i> Settings</a
-            >
+            <router-link to="/settings"><i class="fa fa-cog" aria-hidden="true"></i> Paramètres</router-link>
           </li>
         </ul>
       </div>

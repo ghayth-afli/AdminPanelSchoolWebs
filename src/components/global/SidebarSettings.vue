@@ -5,9 +5,9 @@
                 <div class="sidebar-menu">
                     <ul>
                         <li>
-                            <a href="index.html"><i class="fa fa-home back-icon"></i>De retour</a>
+                           <router-link to="/"><i class="fa fa-home back-icon"></i>De retour</router-link>
                         </li>
-                        <li classe="menu-title">Paramètres </li>
+                        <li class="menu-title">Paramètres</li>
                         <li>
                             <router-link to="/settings" >Paramètres d'ecole</router-link>
                         </li>

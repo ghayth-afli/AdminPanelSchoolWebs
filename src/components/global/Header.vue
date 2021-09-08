@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <div class="header-left">
-      <a href="index.html" class="logo">
+      <router-link to="/" class="logo">
         <img src="assets/img/logo.png" width="40" height="40" alt="" />
-      </a>
+      </router-link>
     </div>
     <div class="page-title-box pull-left">
       <h3>Admin</h3>
