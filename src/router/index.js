@@ -16,8 +16,9 @@ import Emploi from "../components/local/Emploi.vue";
 import Moyennes from "../components/local/Moyennes.vue";
 import Parents from "../components/local/Parents.vue";
 import Profes from "../components/local/Profes.vue";
-import Settings from "../components/local/Settings.vue";
+//import Settings from "../components/local/Settings.vue";
 import ThemeSettings from "../components/local/ThemeSettings.vue";
+import SettingsV from "../views/Settings.vue";
 const routes = [
   {
     path: "/",
@@ -107,8 +108,8 @@ const routes = [
   },
   {
     path: "/settings",
-    name: "Settings",
-    component: Settings,
+    name: "SettingsV",
+    component: SettingsV,
   },
   {
     path: "/settings/theme",

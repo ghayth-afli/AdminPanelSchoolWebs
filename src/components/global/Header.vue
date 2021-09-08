@@ -151,9 +151,9 @@
           <i class="caret"></i>
         </a>
         <ul class="dropdown-menu">
-          <li><a href="profileAdmine.html">Mon profil</a></li>
-          <li><a href="editProfile.html">Editer le profil</a></li>
-          <li><a href="settings.html">Paramètres </a></li>
+          <li><router-link to="/adminProfile">Mon profil</router-link></li>
+          <li><router-link to="/profile/edit">Editer le profil</router-link></li>
+          <li><router-link to="/settings">Paramètres </router-link></li>
           <li><a href="login.html">Se déconnecter</a></li>
         </ul>
       </li>
@@ -167,10 +167,10 @@
         ><i class="fa fa-ellipsis-v"></i
       ></a>
       <ul class="dropdown-menu">
-        <li><a href="profileAdmine.html">Mon profil</a></li>
-        <li><a href="editProfile.html">Editer le profil</a></li>
-        <li><a href="settings.html">Paramètres </a></li>
-        <li><a href="login.html">Se déconnecter</a></li>
+        <li><router-link to="/adminProfile">Mon profil</router-link></li>
+          <li><router-link to="/profile/edit">Editer le profil</router-link></li>
+          <li><router-link to="/settings">Paramètres </router-link></li>
+          <li><a href="login.html">Se déconnecter</a></li>
       </ul>
     </div>
   </div>

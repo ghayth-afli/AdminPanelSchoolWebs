@@ -1,4 +1,5 @@
 <template>
+<div class="page-wrapper">
     <div class="content container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
@@ -34,12 +35,17 @@
                         </form>
                     </div>
                 </div>
-            </div>
+    </div>
+</div>
+<SidebarSettings/>
 </template>
 
 <script>
+import SidebarSettings from "@/components/global/SidebarSettings.vue";
 export default {
   name: "ChangePassword",
-
+    components: {
+    SidebarSettings,
+  },
 };
 </script>

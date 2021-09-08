@@ -1,4 +1,6 @@
 <template>
+<div class="page-wrapper">
+
     <div class="content container-fluid">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
@@ -114,6 +116,7 @@
                     </div>
                 </div>
             </div>
+</div>
 </template>
 
 <script>
